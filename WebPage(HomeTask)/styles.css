@@ -1,0 +1,150 @@
+.header{
+    background-color: #003366;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+}
+
+.flex-container {
+    border: 2px solid red;
+    text-align: center;
+    background-color: white;
+    height: 65px; 
+    width: 400px;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+
+.content{
+    font-size: 23px;
+    margin-bottom: 8px;
+    margin-top: 14px;
+    padding: 0 70px;
+}
+
+.sub-content{
+    margin-top: -2px;
+    font-size: 10px;
+}
+
+.row-1{
+    display: flex;
+    margin: 10px 20px 30px;
+    font-family: Roboto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category{
+    width: 28%;
+}
+
+.news{
+    font-size: 33px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.subscribe{
+    align-items: center;
+}
+
+body{
+    margin: 5px;
+    font-family: Roboto;
+}
+
+.center{
+    text-align: center;
+}
+
+.subscribeButton{
+    background-color:black;
+    color:white;
+    border: 2px solid rgb(197, 197, 197);
+    cursor: pointer;
+}
+
+.readButton{
+    margin-right: 40px;
+    margin-bottom: 40px;
+    background-color: orangered;
+    color:white;
+    border: 2px solid rgb(197, 197, 197);
+    font-size: 16px;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-family: Roboto;
+}
+
+.newsHeadlines{
+    color: #003366;
+    font-family: Roboto;
+}
+
+.reporting{
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    margin: 7px 50px 10px 5px;
+    float: left;
+    border: 2px solid rgb(197, 197, 197);
+    
+}
+
+.para{
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+    .responsive {
+      width: 360px;
+      height: 360px;
+      margin: 10px 35px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+    .responsive {
+      width: 310px;
+      height: 310px;
+      margin: 10px 20px;
+    }
+}
+  
+  
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+    .responsive {
+      width: 270px;
+      height: 270px;
+      margin: 10px 20px;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 2000px) {
+    .responsive {
+      width: 250px;
+      height: 250px;
+    }
+}
+
+.footer{
+    height: 20px;
+    background-color: #003366;  
+    color:azure; 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
